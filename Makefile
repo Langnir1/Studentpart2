@@ -8,7 +8,7 @@ address.o: address.cpp address.h
 	g++ -g -c address.cpp
 
 date.o: date.cpp date.h
-	g++ -g -c date.h
+	g++ -g -c date.cpp
 
 student.o: student.cpp student.h date.h address.h
 	g++ -g -c student.cpp

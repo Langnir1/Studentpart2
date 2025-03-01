@@ -69,3 +69,11 @@ void Student::printStudent(){
 	std::cout << " ";
 	std::cout << std::endl;
 } // end of printStudent
+
+std::string Student::getLastName() const{
+	return lastName;
+}
+
+std::string Student::getFirstName() const{
+	return name;
+}
